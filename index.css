@@ -1,0 +1,136 @@
+
+* {
+	font-family: "Poppins", sans-serif;
+	scroll-behavior: smooth;
+}
+
+.btn-custom {
+	background-color: #e74c3c !important;
+	border-color: #e74c3c !important;
+	color: #fefefe !important;
+    text-transform: uppercase !important;
+    
+}
+.btn-custom:hover {
+	background-color: transparent !important;
+	border-color: #e74c3c !important;
+	color: #e74c3c !important;
+}
+
+h1, h2 {
+	font-family: "Oswald", sans-serif;
+	color: #333333;
+}
+
+h2 {
+	font-size: 3rem !important;
+}
+
+/* Nav Section */
+nav {
+	background-color: rgba(255,255,255,0.8) !important;
+    backdrop-filter: blur(5px);
+}
+nav #logo {
+	width: 15%;
+}
+nav a {
+	color: #333333 !important;
+}
+nav a:hover, nav a:active {
+	color: #e74c3c !important;
+}
+
+/* Header Section */
+#landing {
+	background-image: url(./images/header-bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+#landing .title {
+	font-size: 4rem;
+}
+#landing .subtitle {
+	font-size: 2rem;
+	font-weight: 200;
+}
+
+/* About Me Section */
+#about {
+	background-color: #e74c3c !important;
+}
+#about * {
+	color: #efefef !important;
+}
+
+/* Project */
+#gallery .img-thumbnail {
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+}
+#projects .img-thumbnail {
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+	padding: 0;
+	background-color: transparent;
+	border: none;
+	border-radius: 0;
+}
+
+/* Contact */
+
+iframe {
+    height: 50vh;
+    width: 100%;
+    border: 0;
+}
+
+/* Tools */
+#tools .card {
+	width: 150px;
+}
+#tools .card:hover {
+	box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+	transition: all 0.2s ease-in;
+	animation: vibrate-fast 1s linear 0s 1 normal none;
+}  
+@keyframes vibrate-fast {
+		
+	0% {
+		transform:translate(0);
+	}
+	10% {
+		transform:translate(-2px,-2px);
+	}
+	20% {
+		transform:translate(2px,-2px);
+	}
+	30% {
+		transform:translate(-2px,2px);
+	}
+	40% {
+		transform:translate(2px,2px);
+	}
+	50% {
+		transform:translate(-2px,-2px;
+	}
+	60% {
+		transform:translate(2px,-2px);
+	}
+	70% {
+		transform:translate(-2px,2px);
+	}
+	80% {
+		transform:translate(-2px,-2px);
+	}
+	90% {
+		transform:translate(2px,-2px);
+	}
+	100% {
+		transform:translate(0);
+	}
+}
