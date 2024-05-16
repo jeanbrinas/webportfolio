@@ -66,6 +66,9 @@ nav a:hover, nav a:active {
 }
 
 /* Project */
+#projects {
+	background-color: #f2f3f5 !important;
+}
 #gallery .img-thumbnail {
 	width: 300px;
 	height: 300px;
