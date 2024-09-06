@@ -93,13 +93,12 @@ iframe {
 }
 
 /* Tools */
-#tools .card {
-	width: 150px;
+#tools .card  {
+	transition: opacity 0.6s ease;
+	width: 144px;
 }
-#tools .card:hover {
-	box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
-	transition: all 0.2s ease-in;
-	animation: vibrate-fast 1s linear 0s 1 normal none;
+#tools .container:hover .card:not(:hover) {
+	opacity: 0.4;
 }  
 @keyframes vibrate-fast {
 		
