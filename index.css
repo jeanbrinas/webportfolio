@@ -5,20 +5,19 @@
 }
 
 .btn-custom {
-	background-color: #e74c3c !important;
-	border-color: #e74c3c !important;
+	background-color: #343a40 !important;
+	border-color: #343a40 !important;
 	color: #fefefe !important;
     text-transform: uppercase !important;
     
 }
 .btn-custom:hover {
 	background-color: transparent !important;
-	border-color: #e74c3c !important;
-	color: #e74c3c !important;
+	border-color: #343a40 !important;
+	color: #343a40 !important;
 }
 
 h1, h2 {
-	font-family: "Oswald", sans-serif;
 	color: #333333;
 }
 
@@ -37,8 +36,9 @@ nav #logo {
 nav a {
 	color: #333333 !important;
 }
-nav a:hover, nav a:active {
-	color: #e74c3c !important;
+.navbar-nav .nav-link.active {
+	color: #ffffff !important;
+	background: #212121 !important;
 }
 
 /* Header Section */
@@ -59,7 +59,7 @@ nav a:hover, nav a:active {
 
 /* About Me Section */
 #about {
-	background-color: #e74c3c !important;
+	background-color: #343a40 !important;
 }
 #about * {
 	color: #efefef !important;
@@ -67,7 +67,7 @@ nav a:hover, nav a:active {
 
 /* Project */
 #projects {
-	background-color: #f2f3f5 !important;
+	background-color: #e9ecef !important;
 }
 #gallery .img-thumbnail {
 	width: 300px;
@@ -84,7 +84,21 @@ nav a:hover, nav a:active {
 	border-radius: 0;
 }
 
+
+/* Tools */
+#tools .card  {
+	transition: opacity 0.6s ease;
+	width: 144px;
+	border: none;
+}
+#tools .container:hover .card:not(:hover) {   
+	opacity: 0.4;
+}  
+
 /* Contact */
+#contacts {
+	background-color: #e9ecef !important;
+}
 
 iframe {
     height: 50vh;
@@ -92,47 +106,7 @@ iframe {
     border: 0;
 }
 
-/* Tools */
-#tools .card  {
-	transition: opacity 0.6s ease;
-	width: 144px;
-}
-#tools .container:hover .card:not(:hover) {
-	opacity: 0.4;
-}  
-@keyframes vibrate-fast {
-		
-	0% {
-		transform:translate(0);
-	}
-	10% {
-		transform:translate(-2px,-2px);
-	}
-	20% {
-		transform:translate(2px,-2px);
-	}
-	30% {
-		transform:translate(-2px,2px);
-	}
-	40% {
-		transform:translate(2px,2px);
-	}
-	50% {
-		transform:translate(-2px,-2px;
-	}
-	60% {
-		transform:translate(2px,-2px);
-	}
-	70% {
-		transform:translate(-2px,2px);
-	}
-	80% {
-		transform:translate(-2px,-2px);
-	}
-	90% {
-		transform:translate(2px,-2px);
-	}
-	100% {
-		transform:translate(0);
-	}
+/* FOOTER */
+footer {
+	background-color: #212529 !important;
 }
